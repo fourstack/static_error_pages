@@ -12,9 +12,9 @@ Generate views:
 
 Add a capistrano task
 
-  task :static_error_pages, :roles => :app do
-    run "cd #{current_release} && #{rake} RAILS_ENV=#{stage} static_error_pages"
-  end
+    task :static_error_pages, :roles => :app do
+      run "cd #{current_release} && #{rake} RAILS_ENV=#{stage} static_error_pages"
+    end
 
 This project uses MIT-LICENSE.
 
