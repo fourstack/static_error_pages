@@ -10,6 +10,10 @@ Generate views:
 
     rails generate static_error_pages:install
 
+Add to config/routes.rb
+
+    mount StaticErrorPages::Engine, :at => "error"
+
 Add a capistrano task
 
     task :static_error_pages, :roles => :app do
