@@ -14,6 +14,8 @@ Add to config/routes.rb
 
     mount StaticErrorPages::Engine, :at => "error"
 
+Add main_app before url helpers in layout.
+
 Add a capistrano task
 
     task :static_error_pages, :roles => :app do
