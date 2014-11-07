@@ -1,5 +1,5 @@
 module StaticErrorPages
-  class ErrorController < ApplicationController
+  class ErrorController < StaticErrorPages::ApplicationController
 
     if defined?(Devise)
       skip_before_filter :authenticate_user!
