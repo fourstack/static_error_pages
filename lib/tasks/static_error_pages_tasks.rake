@@ -5,7 +5,7 @@ task static_error_pages: :environment do
     output = "#{error}.html"
     puts "Generating #{output}..."
     outpath = File.join([Rails.root, 'public', output])
-    resp = app.get("error/#{error}")
+    resp = app.get("/error/#{error}")
     if resp == 301
       resp = app.get(app.response.headers['Location'])
     end
