@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = StaticErrorPages::VERSION
   s.authors     = ["Petrik de Heus"]
   s.email       = ["petrik@fourstack.nl"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of StaticErrorPages."
-  s.description = "TODO: Description of StaticErrorPages."
+  s.homepage    = ""
+  s.summary     = "Static error pages for your Rails app"
+  s.description = "Static error pages for your Rails app"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
