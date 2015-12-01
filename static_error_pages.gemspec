@@ -7,8 +7,8 @@ require "static_error_pages/version"
 Gem::Specification.new do |s|
   s.name        = "static_error_pages"
   s.version     = StaticErrorPages::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Petrik de Heus"]
+  s.email       = ["petrik@fourstack.nl"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of StaticErrorPages."
   s.description = "TODO: Description of StaticErrorPages."
